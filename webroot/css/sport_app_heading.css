@@ -1,0 +1,11 @@
+
+.sport_app__information--image{
+  display: none;
+}
+.sport_app__list{
+  list-style: none;
+}
+.sport_app__list--anchor{
+  text-decoration: none;
+}
+
