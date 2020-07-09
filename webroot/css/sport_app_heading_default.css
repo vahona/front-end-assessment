@@ -1,4 +1,38 @@
+:root {
+  --margin-for-block-start : 40px;
+  --margin-for-block-end:59px;
+  --margin-for-inline: 20px;
+}
+
+
 html{
-  max-width: 360px;
-  max-height: 3451px;
+  background-color: #E5E5E5;;
+
+}
+body{
+  margin-block-start: var(--margin-for-inline);
+  margin-block-end: var(--margin-for-block-end);
+  padding-left: 0;
+  padding-right: 0;
+  background-color:  #F4F6F9;
+}
+
+header{
+  margin-inline-start: var(--margin-for-inline);
+  margin-inline-end: var(--margin-for-inline);
+  height: 525px;
+
+}
+h1 {
+padding-top: 30px;
+margin-left: 91px;
+margin-right: 83px;
+
+}
+header p {
+overflow-wrap: break-word;
+
+}
+header h2{
+
 }

@@ -1,8 +1,8 @@
 
 .sport_app__list--anchor{
   background-repeat: no-repeat;
-  margin: 1rem;
   background-size: contain;
+
 
 
 }
@@ -18,8 +18,12 @@ width: 145.65px;
 height: 44px;
 
 }
+.anchor_on_google{
+  margin-left: 1rem;
+}
 .sport_app__link--list{
   display: flex;
+  padding-inline-start: 0;
 }
 
 .sport_app__information--image{
@@ -35,6 +39,11 @@ height: 44px;
   display: flex;
 
 
+}
+
+.sport_logo_app--more_information{
+ margin-inline-start: ;
+ margin-inline-end: 30px;
 }
 
 
