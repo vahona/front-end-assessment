@@ -42,10 +42,26 @@ height: 44px;
 }
 
 .sport_logo_app--more_information{
- margin-inline-start: ;
  margin-inline-end: 30px;
 }
+@media (min-width : 1018px){
 
+  header{
+    margin-left: 163px;
+
+  }
+  .sport_app__information--image{
+    display: block;
+    width:60%;
+    float: right;
+
+  }
+  h1{
+    padding-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 
 
