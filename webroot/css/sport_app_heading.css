@@ -8,4 +8,21 @@
 .sport_app__list--anchor{
   text-decoration: none;
 }
+.sport_app__list--anchor{
+  text-indent: -999px;
+  display: block;
+  background-size: contain;
 
+}
+.anchor_on_app{
+  background-image:url('../images/apple_store.svg');
+  background-repeat: no-repeat;
+  margin: 1rem;
+
+}
+
+.anchor_on_google{
+  background-image: url('../images/google_play.svg');
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
