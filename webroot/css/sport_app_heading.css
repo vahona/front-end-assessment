@@ -1,28 +1,43 @@
 
+.sport_app__list--anchor{
+  background-repeat: no-repeat;
+  margin: 1rem;
+  background-size: contain;
+
+
+}
+
+.anchor_on_app{ background-image:url('../images/apple_store.svg')}
+.anchor_on_google{background-image: url('../images/google_play.svg')}
+
+.anchor_on_google,
+.anchor_on_app{
+display: block;
+text-indent: -999px;
+width: 145.65px;
+height: 44px;
+
+}
+.sport_app__link--list{
+  display: flex;
+}
+
 .sport_app__information--image{
   display: none;
+
 }
 .sport_app__list{
   list-style: none;
+
 }
 .sport_app__list--anchor{
   text-decoration: none;
-}
-.sport_app__list--anchor{
-  text-indent: -999px;
-  display: block;
-  background-size: contain;
+  display: flex;
 
-}
-.anchor_on_app{
-  background-image:url('../images/apple_store.svg');
-  background-repeat: no-repeat;
-  margin: 1rem;
 
 }
 
-.anchor_on_google{
-  background-image: url('../images/google_play.svg');
-  background-repeat: no-repeat;
-  margin: 1rem;
-}
+
+
+
+
