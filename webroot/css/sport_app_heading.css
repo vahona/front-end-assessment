@@ -46,7 +46,7 @@ header{
 
 .sport_app__information--image{
   display: block;
-  width:60%;
+  width:50%;
   float: right;
 
 }
@@ -77,6 +77,7 @@ h1{
 
    .sport_app__information--image{
     display: none;
+
   }
 
   .sport_app__list--anchor{
