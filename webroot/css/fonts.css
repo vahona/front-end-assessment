@@ -1,6 +1,13 @@
 @font-face {
   font-family: sport-lato-light;
-  src : url(css/fonts/sport-lato-light.woff) format(woff),
+  src : url(css/fonts/sport-lato-light.woff) format(woff);
+  font-weight: 400;
 
+}
+
+@font-face {
+  font-family: sport-lato-bold;
+  src : url(css/fonts/sport-lato.woff) format(woff);
+  font-weight: 700;
 
 }
