@@ -4,11 +4,10 @@
   --margin-for-inline: 20px;
 }
 
-
 html{
   background-color: #E5E5E5;;
-
 }
+
 body{
   margin-block-start: var(--margin-for-inline);
   margin-block-end: var(--margin-for-block-end);
@@ -16,21 +15,17 @@ body{
   padding-right: 0;
   background-color:  #F4F6F9;
 }
-
 header{
   margin-inline-start: var(--margin-for-inline);
   margin-inline-end: var(--margin-for-inline);
   height: 525px;
-
 }
+
 h1 {
-padding-top: 30px;
-margin-left: 91px;
-margin-right: 83px;
-
+  padding-top: 30px;
+  margin-left: 91px;
+  margin-right: 83px;
 }
-header p {
-overflow-wrap: break-word;
 
-}
+
 
