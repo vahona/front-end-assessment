@@ -9,4 +9,72 @@ $padding-inline: 0;
 $text-deco:none;
 $margine-inline-end:30px;
 $width-svg:10%;
-$height-svg:10%
+$height-svg:10%;
+.sport_app__list--anchor {
+    background-repeat: $backgroung;
+    background-size: contain;
+}
+
+
+/* Those are backgrounds images for the links dowloading */
+
+.anchor_on_app {
+    background-image: url('../images/apple_store.svg')
+}
+
+.anchor_on_google {
+    background-image: url('../images/google_play.svg')
+}
+
+.anchor_on_google,
+.anchor_on_app {
+    display: block;
+    text-indent: -999px;
+    width: 145.65px;
+    height: 44px;
+}
+
+.sport_app__link--list {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.sport_app__list {
+    list-style: none;
+}
+
+.sport_app__list--anchor {
+    text-decoration: none;
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.sport_logo_app--more_information {
+    margin-inline-end: 30px;
+}
+
+header {
+    margin-inline-start: 163px;
+}
+
+.sport_app__information--image {
+    display: block;
+    width: 50%;
+    float: right;
+}
+
+h1 {
+    padding-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sport_logo_app__heading {
+    font-weight: 700;
+}
+
+.sport_logo_app svg {
+    width: 10%;
+    height: 10%;
+}
