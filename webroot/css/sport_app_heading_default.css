@@ -1,31 +1,38 @@
 :root {
-  --margin-for-block-start : 40px;
-  --margin-for-block-end:59px;
-  --margin-for-inline: 20px;
+    --margin-for-block-start: 40px;
+    --margin-for-block-end: 59px;
+    --margin-for-inline: 20px;
 }
 
-html{
-  background-color: #E5E5E5;;
+html {
+    background-color: #E5E5E5;
 }
 
-body{
-  margin-block-start: var(--margin-for-inline);
-  margin-block-end: var(--margin-for-block-end);
-  padding-left: 0;
-  padding-right: 0;
-  background-color:  #F4F6F9;
+body {
+    margin-block-start: var(--margin-for-inline);
+    margin-block-end: var(--margin-for-block-end);
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #F4F6F9;
+    font-family: lato-light;
 }
-header{
-  margin-inline-start: var(--margin-for-inline);
-  margin-inline-end: var(--margin-for-inline);
-  height: 525px;
+
+header {
+    margin-inline-start: var(--margin-for-inline);
+    margin-inline-end: var(--margin-for-inline);
+    height: 525px;
 }
 
 h1 {
-  padding-top: 30px;
-  margin-left: 91px;
-  margin-right: 83px;
+    padding-top: 30px;
+    margin-left: 91px;
+    margin-right: 83px;
 }
 
+.sport_logo_app__heading {
+    font-family: lato-bold;
+}
 
-
+.sport_logo_app--more_information {
+    font-family: lato-light;
+}

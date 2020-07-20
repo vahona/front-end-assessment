@@ -1,101 +1,96 @@
-
-.sport_app__list--anchor{
-  background-repeat: no-repeat;
-  background-size: contain;
+.sport_app__list--anchor {
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
 
 /* Those are backgrounds images for the links dowloading */
-.anchor_on_app{ background-image:url('../images/apple_store.svg')}
-.anchor_on_google{background-image: url('../images/google_play.svg')}
+
+.anchor_on_app {
+    background-image: url('../images/apple_store.svg')
+}
+
+.anchor_on_google {
+    background-image: url('../images/google_play.svg')
+}
 
 .anchor_on_google,
-.anchor_on_app{
-display: block;
-text-indent: -999px;
-width: 145.65px;
-height: 44px;
+.anchor_on_app {
+    display: block;
+    text-indent: -999px;
+    width: 145.65px;
+    height: 44px;
 }
 
-.sport_app__link--list{
-  display: flex;
-  padding-inline-start: 0;
-
+.sport_app__link--list {
+    display: flex;
+    padding-inline-start: 0;
 }
 
-.sport_app__list{
-  list-style: none;
+.sport_app__list {
+    list-style: none;
 }
 
-
-.sport_app__list--anchor{
-  text-decoration: none;
-  display: flex;
-  margin-top: 1rem;
-  margin-right: 1rem;
+.sport_app__list--anchor {
+    text-decoration: none;
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
-.sport_logo_app--more_information{
- margin-inline-end: 30px;
+.sport_logo_app--more_information {
+    margin-inline-end: 30px;
 }
 
-
-header{
-  margin-inline-start: 163px;
-
+header {
+    margin-inline-start: 163px;
 }
 
-.sport_app__information--image{
-  display: block;
-  width:50%;
-  float: right;
-
+.sport_app__information--image {
+    display: block;
+    width: 50%;
+    float: right;
 }
 
-h1{
-  padding-bottom: 60px;
-  margin-left: 0;
-  margin-right: 0;
+h1 {
+    padding-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.sport_logo_app svg{
-  width: 10%;
-  height: 10%;
- }
+.sport_logo_app__heading {
+    font-weight: 700;
+}
+
+.sport_logo_app svg {
+    width: 10%;
+    height: 10%;
+}
+
 
 /* This media querry show the web in dektop */
-@media (max-width : 600px){
-  header{
-    margin-inline-start: 20px;
 
-  }
-
-  :root {
-    --margin-for-block-start : 40px;
-    --margin-for-block-end:59px;
-    --margin-for-inline: 20px;
-  }
-
-   .sport_app__information--image{
-    display: none;
-
-  }
-
-  .sport_app__list--anchor{
-    flex-wrap: wrap;
-  }
-
-  .sport_logo_app svg{
-  width: 40%;
-  height: 40%;
-  margin-inline-start: calc(var(--margin-for-inline) * 2);
- }
- .sport_app__link--list{
-   flex-wrap: wrap;
-
- }
-
+@media (max-width: 600px) {
+    header {
+        margin-inline-start: 20px;
+    }
+     :root {
+        --margin-for-block-start: 40px;
+        --margin-for-block-end: 59px;
+        --margin-for-inline: 20px;
+    }
+    .sport_app__information--image {
+        display: none;
+    }
+    .sport_app__list--anchor {
+        flex-wrap: wrap;
+    }
+    .sport_logo_app svg {
+        width: 40%;
+        height: 40%;
+        margin-inline-start: calc(var(--margin-for-inline) * 2);
+    }
+    .sport_app__link--list {
+        flex-wrap: wrap;
+    }
 }
-
-
-
-
