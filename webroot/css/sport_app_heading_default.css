@@ -20,7 +20,7 @@ body {
 header {
     margin-inline-start: var(--margin-for-inline);
     margin-inline-end: var(--margin-for-inline);
-    height: 550px;
+    height: 600px;
     background-image: url(../images/sport_app_examples.png);
     background-position: 100% 30%;
     background-repeat: no-repeat;
