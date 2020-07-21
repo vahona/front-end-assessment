@@ -1,17 +1,9 @@
+.sport_app__link--list {
+    list-style: none;
+}
+
 .sport_app__list--anchor {
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-
-/* Those are backgrounds images for the links dowloading */
-
-.anchor_on_app {
-    background-image: url('../images/apple_store.svg')
-}
-
-.anchor_on_google {
-    background-image: url('../images/google_play.svg')
+    text-decoration: none;
 }
 
 .anchor_on_google,
@@ -20,6 +12,16 @@
     text-indent: -999px;
     width: 145.65px;
     height: 44px;
+}
+
+.anchor_on_app {
+    background-image: url('../images/apple_store.svg');
+    background-size: contain;
+}
+
+.anchor_on_google {
+    background-image: url('../images/google_play.svg');
+    background-size: contain;
 }
 
 .sport_app__link--list {
@@ -49,13 +51,16 @@ header {
 .sport_app__information--image {
     display: block;
     width: 50%;
-    float: right;
 }
 
 h1 {
+    background-image: url(../images/ball.png);
+    background-repeat: no-repeat;
+    background-position: 2%;
     padding-bottom: 60px;
     margin-left: 0;
     margin-right: 0;
+    padding: 3rem;
 }
 
 .sport_logo_app__heading {
@@ -67,30 +72,11 @@ h1 {
     height: 10%;
 }
 
+.sport_logo_ball {
+    text-decoration: none;
+}
 
-/* This media querry show the web in dektop */
-
-@media (max-width: 600px) {
-    header {
-        margin-inline-start: 20px;
-    }
-     :root {
-        --margin-for-block-start: 40px;
-        --margin-for-block-end: 59px;
-        --margin-for-inline: 20px;
-    }
-    .sport_app__information--image {
-        display: none;
-    }
-    .sport_app__list--anchor {
-        flex-wrap: wrap;
-    }
-    .sport_logo_app svg {
-        width: 40%;
-        height: 40%;
-        margin-inline-start: calc(var(--margin-for-inline) * 2);
-    }
-    .sport_app__link--list {
-        flex-wrap: wrap;
-    }
+.sport_logo_app__heading,
+.sport_logo_app--more_information {
+    max-width: 546px;
 }

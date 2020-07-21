@@ -11,3 +11,10 @@
     font-weight: 700;
     src: url(../fonts/sport-lato-bold.woff) format('woff');
 }
+
+@font-face {
+    font-family: lobster;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/lobster_font_bold.woff);
+}

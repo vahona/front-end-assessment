@@ -20,10 +20,14 @@ body {
 header {
     margin-inline-start: var(--margin-for-inline);
     margin-inline-end: var(--margin-for-inline);
-    height: 525px;
+    height: 550px;
+    background-image: url(../images/sport_app_examples.png);
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
 }
 
 h1 {
+    font-family: lobster;
     padding-top: 30px;
     margin-left: 91px;
     margin-right: 83px;
