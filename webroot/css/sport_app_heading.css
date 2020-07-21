@@ -84,8 +84,15 @@ h1 {
     header {
         background-image: none;
         margin-inline-start: 16px;
+        text-align: center;
     }
     .sport_app__link--list {
         flex-wrap: wrap;
+    }
+    h1 {
+        background-position: 30%;
+    }
+    .sport_logo_app__heading {
+        margin-inline-start: 1rem;
     }
 }
