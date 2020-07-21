@@ -55,6 +55,7 @@ header {
 h1 {
     background-image: url(../images/ball.png);
     background-repeat: no-repeat;
+    background-size: 16px;
     background-position: 2%;
     padding-bottom: 60px;
     margin-left: 0;
@@ -66,11 +67,6 @@ h1 {
     font-weight: 700;
 }
 
-.sport_logo_app svg {
-    width: 10%;
-    height: 10%;
-}
-
 .sport_logo_ball {
     text-decoration: none;
 }
@@ -78,6 +74,10 @@ h1 {
 .sport_logo_app__heading,
 .sport_logo_app--more_information {
     max-width: 546px;
+}
+
+h1 {
+    font-size: 16px;
 }
 
 @media (max-width: 500px) {
@@ -90,6 +90,8 @@ h1 {
         flex-wrap: wrap;
     }
     h1 {
-        background-position: 30%;
+        background-position: 20%;
+        font-size: 49px;
+        background-size: 15%;
     }
 }
