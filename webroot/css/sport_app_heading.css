@@ -62,7 +62,7 @@ header {
     font-weight: 700;
 }
 
-.sport_logo_app__heading,
+.sport_logo__app--title,
 .sport_logo_app--more_information {
     max-width: 546px;
 }

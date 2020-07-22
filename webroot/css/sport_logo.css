@@ -15,14 +15,13 @@
 
         .sport_logo__sign {
             font-family: lobster;
-            /* padding-top: 1rem; */
         }
 
         @media (max-width: 360px) {
-            .sport_logo_ball {
+            .sport_logo__sign {
                 background-position: 20%;
-                font-size: 49px;
+                font-size: 2rem;
                 background-size: 15%;
-                padding: 6rem;
+                padding: 5rem;
             }
         }
