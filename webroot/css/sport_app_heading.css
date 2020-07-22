@@ -46,7 +46,7 @@ h1 {
 }
 
 .sport_logo_app--more_information {
-    margin-inline-end: 30px;
+    margin-inline-end: 1rem;
 }
 
 header {
@@ -58,23 +58,8 @@ header {
     width: 50%;
 }
 
-.sport_logo_ball {
-    background-image: url(../images/ball.png);
-    background-repeat: no-repeat;
-    background-size: 16px;
-    background-position: 2%;
-    padding-bottom: 60px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 2rem;
-}
-
 .sport_logo_app__heading {
     font-weight: 700;
-}
-
-.sport_logo_ball {
-    text-decoration: none;
 }
 
 .sport_logo_app__heading,
@@ -82,7 +67,7 @@ header {
     max-width: 546px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 360px) {
     header {
         background-image: none;
         margin-inline-start: 16px;
@@ -90,11 +75,5 @@ header {
     }
     .sport_app__link--list {
         flex-wrap: wrap;
-    }
-    .sport_logo_ball {
-        background-position: 20%;
-        font-size: 49px;
-        background-size: 15%;
-        padding: 6rem;
     }
 }
