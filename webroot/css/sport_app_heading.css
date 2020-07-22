@@ -82,10 +82,6 @@ header {
     max-width: 546px;
 }
 
-span {
-    font-size: 16px;
-}
-
 @media (max-width: 500px) {
     header {
         background-image: none;
@@ -101,5 +97,4 @@ span {
         background-size: 15%;
         padding: 6rem;
     }
-    .sport_logo_ball {}
 }
