@@ -21,9 +21,13 @@ header {
     margin-inline-start: var(--margin-for-inline);
     min-height: 600px;
     background-image: url(../images/sport_app_examples.png);
-    background-position: 100% 30%;
+    background-position: 365px 30%;
     background-repeat: no-repeat;
 }
+
+
+/* .sport_logo_app__heading,
+.sport_logo_app--more_information  */
 
 .sport_logo_ball {
     font-family: lobster;
