@@ -14,16 +14,6 @@
     height: 44px;
 }
 
-.anchor_on_app {
-    background-image: url('../images/apple_store.svg');
-    background-size: contain;
-}
-
-.anchor_on_google {
-    background-image: url('../images/google_play.svg');
-    background-size: contain;
-}
-
 .sport_app__link--list {
     display: flex;
     padding-inline-start: 0;
@@ -45,7 +35,7 @@ h1 {
     font-size: small;
 }
 
-.sport_logo_app--more_information {
+.sport_logo_app--information {
     margin-inline-end: 1rem;
 }
 
@@ -56,15 +46,6 @@ header {
 .sport_app__information--image {
     display: block;
     width: 50%;
-}
-
-.sport_logo_app__heading {
-    font-weight: 700;
-}
-
-.sport_logo__app--title,
-.sport_logo_app--more_information {
-    max-width: 546px;
 }
 
 @media (max-width: 360px) {

@@ -1,0 +1,9 @@
+.anchor_on_app {
+    background-image: url('../images/apple_store.svg');
+    background-size: contain;
+}
+
+.anchor_on_google {
+    background-image: url('../images/google_play.svg');
+    background-size: contain;
+}

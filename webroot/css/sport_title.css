@@ -2,3 +2,7 @@
     font-family: lato-bold;
     font-weight: 700;
 }
+
+.sport_logo__app--title {
+    max-width: 546px;
+}
