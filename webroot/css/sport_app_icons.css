@@ -1,9 +1,40 @@
-.anchor_on_app {
+.sport_app__downloading {
     background-image: url('../images/apple_store.svg');
     background-size: contain;
 }
 
-.anchor_on_google {
+.sport_app__downloading--google {
     background-image: url('../images/google_play.svg');
     background-size: contain;
+}
+
+.sport_app__downloading,
+.sport_app__downloading--google {
+    display: block;
+    text-indent: -999px;
+    width: 145.65px;
+    height: 44px;
+}
+
+.sport_app__link {
+    list-style: none;
+}
+
+.sport_app__list--anchor {
+    text-decoration: none;
+}
+
+.sport_app__link {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.sport_app__link--list {
+    list-style: none;
+}
+
+.sport_app__list--anchor {
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }

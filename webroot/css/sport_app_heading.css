@@ -1,34 +1,3 @@
-.sport_app__link--list {
-    list-style: none;
-}
-
-.sport_app__list--anchor {
-    text-decoration: none;
-}
-
-.anchor_on_google,
-.anchor_on_app {
-    display: block;
-    text-indent: -999px;
-    width: 145.65px;
-    height: 44px;
-}
-
-.sport_app__link--list {
-    display: flex;
-    padding-inline-start: 0;
-}
-
-.sport_app__list {
-    list-style: none;
-}
-
-.sport_app__list--anchor {
-    text-decoration: none;
-    margin-top: 1rem;
-    margin-right: 1rem;
-}
-
 h1 {
     padding-block-start: 3rem;
     padding-block-end: 3rem;
@@ -55,6 +24,6 @@ header {
         text-align: center;
     }
     .sport_app__link--list {
-        flex-wrap: wrap;
+        background-size: 20%;
     }
 }
