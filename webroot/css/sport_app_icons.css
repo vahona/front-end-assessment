@@ -1,19 +1,21 @@
 .sport_app__downloading {
     background-image: url('../images/apple_store.svg');
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sport_app__downloading--google {
     background-image: url('../images/google_play.svg');
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sport_app__downloading,
 .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
-    width: 145.65px;
-    height: 44px;
+    width: 156px;
+    height: 447px;
 }
 
 .sport_app__link {
@@ -37,4 +39,14 @@
     text-decoration: none;
     margin-top: 1rem;
     margin-right: 1rem;
+}
+
+@media (max-width: 360px) {
+    .sport_app__downloading,
+    .sport_app__downloading--google {
+        display: block;
+        text-indent: -999px;
+        width: 145.65px;
+        height: 44px;
+    }
 }

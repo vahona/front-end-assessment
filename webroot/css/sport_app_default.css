@@ -1,6 +1,4 @@
 :root {
-    --margin-for-block-start: 40px;
-    --margin-for-block-end: 59px;
     --margin-for-inline: 20px;
 }
 
@@ -16,9 +14,20 @@ body {
 }
 
 header {
-    margin-inline-start: var(--margin-for-inline);
+    margin-inline-start: calc(var(--margin-for-inline) * 5);
     min-height: 600px;
     background-image: url(../images/sport_app_examples.png);
     background-position: 365px 30%;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 360px) {
+    header {
+        background-image: none;
+        margin-inline-start: 16px;
+        text-align: center;
+    }
+    .sport_app__link--list {
+        background-size: 20%;
+    }
 }
