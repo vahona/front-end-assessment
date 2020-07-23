@@ -11,6 +11,7 @@ body {
     padding-right: 0;
     background-color: #F4F6F9;
     font-family: lato-light;
+    margin: 0;
 }
 
 header {
@@ -25,7 +26,8 @@ header {
 @media (max-width: 360px) {
     header {
         background-image: none;
-        margin-inline-start: 16px;
+        margin-inline-start: 1rem;
+        margin-inline-end: 1rem;
         text-align: center;
     }
     .sport_app__link--list {
