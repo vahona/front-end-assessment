@@ -16,8 +16,8 @@ body {
 header {
     margin-inline-start: calc(var(--margin-for-inline) * 5);
     min-height: 600px;
-    background-image: url(../images/sport_app_examples.png);
-    background-position: 365px 30%;
+    background-image: url(../images/sport_app_bacground.png);
+    background-position: 365px 20%;
     background-repeat: no-repeat;
 }
 
