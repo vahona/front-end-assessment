@@ -10,7 +10,7 @@
             padding-bottom: 60px;
             margin-left: 0;
             margin-right: 0;
-            padding: calc(#{$margin-app} * 2);
+            padding: 2rem
         }
 
         .sport_logo__sign {
@@ -22,6 +22,6 @@
                 background-position: 20%;
                 font-size: 2rem;
                 background-size: 15%;
-                padding: calc(#{$padding-app} * 5);
+                padding: 5rem;
             }
         }
