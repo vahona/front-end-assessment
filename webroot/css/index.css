@@ -96,7 +96,7 @@ h1 {
   .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
-    width: 156px;
+    width: 140px;
     height: 44px; } }
 
 :root {
@@ -115,7 +115,7 @@ body {
 header {
   margin-inline-start: calc(var(--margin-for-inline) * 5);
   min-height: 600px;
-  background-image: url(../images/_sport_app_background.png);
+  background-image: url(../images/sport_app_background.png);
   background-position: 380px 20%;
   background-repeat: no-repeat; }
 
@@ -127,6 +127,3 @@ header {
     text-align: center; }
   .sport_app__link--list {
     background-size: 20%; } }
-
-body {
-  margin: 0; }

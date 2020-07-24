@@ -17,7 +17,7 @@ body {
 header {
     margin-inline-start: calc(var(--margin-for-inline) * 5);
     min-height: 600px;
-    background-image: url(../images/_sport_app_background.png);
+    background-image: url(../images/sport_app_background.png);
     background-position: 380px 20%;
     background-repeat: no-repeat;
 
@@ -26,8 +26,8 @@ header {
 @media (max-width: 360px) {
     header {
         background-image: none;
-        margin-inline-start: 1rem;
-        margin-inline-end: 1rem;
+        margin-inline-start: $margin-app;
+        margin-inline-end: $margin-app;
         text-align: center;
     }
     .sport_app__link--list {
