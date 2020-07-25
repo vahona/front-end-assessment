@@ -113,11 +113,20 @@ body {
   margin: 0; }
 
 header {
-  margin-inline-start: calc(var(--margin-for-inline) * 5);
   min-height: 600px;
   background-image: url(../images/sport_app_background.png);
-  background-position: 380px 20%;
+  background-position: 100% 0%;
   background-repeat: no-repeat; }
+
+.sport_app {
+  max-width: 546px;
+  margin-inline-end: 0;
+  margin-inline-start: 10rem; }
+
+.sport_app_container {
+  max-width: 1114px;
+  margin-inline-start: auto;
+  margin-inline-end: auto; }
 
 @media (max-width: 360px) {
   header {
@@ -126,7 +135,10 @@ header {
     margin-inline-end: 1rem;
     text-align: center; }
   .sport_app__link--list {
-    background-size: 20%; } }
+    background-size: 20%; }
+  .sport_app {
+    margin-inline-end: 0;
+    margin-inline-start: 1rem; } }
 
 .sport_logo__sign {
   color: #5282F0; }
