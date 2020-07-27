@@ -21,18 +21,6 @@
   padding: 0;
   list-style: none; }
 
-.sport_app__link {
-  display: flex;
-  padding-inline-start: 0; }
-
-.sport_app__list--anchor {
-  text-decoration: none; }
-
-.sport_app__list--anchor {
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-right: 1rem; }
-
 .sport_logo__sign {
   text-decoration: none; }
 
@@ -77,18 +65,6 @@ h1 {
   margin: 0;
   padding: 0;
   list-style: none; }
-
-.sport_app__link {
-  display: flex;
-  padding-inline-start: 0; }
-
-.sport_app__list--anchor {
-  text-decoration: none; }
-
-.sport_app__list--anchor {
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-right: 1rem; }
 
 .sport_app__downloading {
   background-image: url("../images/apple_store.svg");
@@ -138,18 +114,6 @@ h1 {
   padding: 0;
   list-style: none; }
 
-.sport_app__link {
-  display: flex;
-  padding-inline-start: 0; }
-
-.sport_app__list--anchor {
-  text-decoration: none; }
-
-.sport_app__list--anchor {
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-right: 1rem; }
-
 html {
   background-color: #E5E5E5; }
 
@@ -162,7 +126,7 @@ body {
   background-color: #E5E5E5;
   font-family: lato-light;
   margin: 0rem;
-  font-size: 16px;}
+  font-size: 16px; }
 
 header {
   min-height: 600px;
@@ -197,34 +161,10 @@ header {
   padding: 0;
   list-style: none; }
 
-.sport_app__link {
-  display: flex;
-  padding-inline-start: 0; }
-
-.sport_app__list--anchor {
-  text-decoration: none; }
-
-.sport_app__list--anchor {
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-right: 1rem; }
-
 .sport_app__link--list {
   margin: 0;
   padding: 0;
   list-style: none; }
-
-.sport_app__link {
-  display: flex;
-  padding-inline-start: 0; }
-
-.sport_app__list--anchor {
-  text-decoration: none; }
-
-.sport_app__list--anchor {
-  text-decoration: none;
-  margin-top: 1rem;
-  margin-right: 1rem; }
 
 .sport_logo__sign {
   color: #5282F0; }
