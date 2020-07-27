@@ -1,7 +1,25 @@
+/* padding */
 
-$background-app:  #E5E5E5;
+$padding : 1rem;
+$padding-end: 1rem;
 $padding-app: 1rem;
+
+/* margine */
+
+$margine: 1rem;
 $margin-app: 1rem;
 $margin-start: 1rem;
-$padding-end: 1rem;
-$color : #5282F0;
+$margin-end: 1rem;
+
+/* color */
+$background-app:  #E5E5E5;
+$color-logo : #5282F0;
+$color-heading: #333333;
+$color-paragraph: #4F4F4F;
+
+/* width */
+
+$width : 156px;
+$max-width-contain: 1114px;
+$max-width-para: 546px;
+$min-height: 600px

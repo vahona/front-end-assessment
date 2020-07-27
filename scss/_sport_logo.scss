@@ -1,3 +1,4 @@
+        @import "variables";
         .sport_logo__sign {
             text-decoration: none;
         }
@@ -8,9 +9,9 @@
             background-size: 16px;
             background-position: 2%;
             padding-bottom: 60px;
-            margin-left: 0;
-            margin-right: 0;
-            padding: 2rem
+            margin-left: $margine * 0;
+            margin-right: $margine * 0;
+            padding: $padding
         }
 
         .sport_logo__sign {
@@ -22,6 +23,6 @@
                 background-position: 20%;
                 font-size: 2rem;
                 background-size: 15%;
-                padding: 5rem;
+                padding: $padding * 5;
             }
         }

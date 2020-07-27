@@ -9,29 +9,28 @@ html {
 }
 
 body {
-    padding-left: 0;
-    padding-right: 0;
-    background-color: #F4F6F9;
+    padding-left: $padding * 0;
+    padding-right: $padding * 0;
+    background-color: $background-app;
     font-family: lato-light;
-    margin: 0;
+    margin: $margine * 0;
 }
 
 header {
-    // margin-inline-start: calc(var(--margin-for-inline) * 5);
-    min-height: 600px;
+    min-height: $min-height;
     background-image: url(../images/sport_app_background.png);
-    background-position: 100% 0%;
+    background-position: 650px 0%;
     background-repeat: no-repeat;
 
 }
 .sport_app {
-  max-width: 546px;
-  margin-inline-end: 0;
-  margin-inline-start: 10rem;
+  max-width: $max-width-para;
+  margin-inline-end: $margin-start * 0;
+  margin-inline-start: $margin-start * 10;
 
 }
 .sport_app_container{
-  max-width: 1114px;
+  max-width: $max-width-contain;
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
@@ -47,8 +46,8 @@ header {
         background-size: 20%;
     }
     .sport_app {
-  margin-inline-end: 0;
-  margin-inline-start: 1rem;
+  margin-inline-end: $margin-end * 0;
+  margin-inline-start: $margin-start;
 
 }
 }

@@ -16,6 +16,10 @@
   font-weight: 700;
   src: url(../fonts/lobster_font_bold.woff); }
 
+/* padding */
+/* margine */
+/* color */
+/* width */
 .sport_logo__sign {
   text-decoration: none; }
 
@@ -25,9 +29,9 @@
   background-size: 16px;
   background-position: 2%;
   padding-bottom: 60px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 2rem; }
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding: 1rem; }
 
 .sport_logo__sign {
   font-family: lobster; }
@@ -43,7 +47,7 @@ h1 {
   padding-block-start: 3rem;
   padding-block-end: 3rem;
   font-size: small;
-  margin: 0; }
+  margin: 0rem; }
 
 .sport_logo__app--title {
   font-family: lato-bold;
@@ -56,6 +60,10 @@ h1 {
   max-width: 380px;
   font-family: lato-light; }
 
+/* padding */
+/* margine */
+/* color */
+/* width */
 .sport_app__downloading {
   background-image: url("../images/apple_store.svg");
   background-size: contain;
@@ -81,7 +89,7 @@ h1 {
 
 .sport_app__link {
   display: flex;
-  padding-inline-start: 0; }
+  padding-inline-start: 0rem; }
 
 .sport_app__link--list {
   list-style: none; }
@@ -96,9 +104,13 @@ h1 {
   .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
-    width: 140px;
+    width: 130px;
     height: 44px; } }
 
+/* padding */
+/* margine */
+/* color */
+/* width */
 html {
   background-color: #E5E5E5; }
 
@@ -106,21 +118,21 @@ html {
   --margin-for-inline: 20px; }
 
 body {
-  padding-left: 0;
-  padding-right: 0;
-  background-color: #F4F6F9;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  background-color: #E5E5E5;
   font-family: lato-light;
-  margin: 0; }
+  margin: 0rem; }
 
 header {
   min-height: 600px;
   background-image: url(../images/sport_app_background.png);
-  background-position: 100% 0%;
+  background-position: 650px 0%;
   background-repeat: no-repeat; }
 
 .sport_app {
   max-width: 546px;
-  margin-inline-end: 0;
+  margin-inline-end: 0rem;
   margin-inline-start: 10rem; }
 
 .sport_app_container {
@@ -137,9 +149,17 @@ header {
   .sport_app__link--list {
     background-size: 20%; }
   .sport_app {
-    margin-inline-end: 0;
+    margin-inline-end: 0rem;
     margin-inline-start: 1rem; } }
 
+/* padding */
+/* margine */
+/* color */
+/* width */
+/* padding */
+/* margine */
+/* color */
+/* width */
 .sport_logo__sign {
   color: #5282F0; }
 
