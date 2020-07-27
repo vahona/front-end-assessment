@@ -16,10 +16,23 @@
   font-weight: 700;
   src: url(../fonts/lobster_font_bold.woff); }
 
-/* padding */
-/* margine */
-/* color */
-/* width */
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__link {
+  display: flex;
+  padding-inline-start: 0; }
+
+.sport_app__list--anchor {
+  text-decoration: none; }
+
+.sport_app__list--anchor {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 1rem; }
+
 .sport_logo__sign {
   text-decoration: none; }
 
@@ -57,13 +70,26 @@ h1 {
   max-width: 380px; }
 
 .sport_logo__app--information {
-  max-width: 380px;
+  max-width: 22.25rem;
   font-family: lato-light; }
 
-/* padding */
-/* margine */
-/* color */
-/* width */
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__link {
+  display: flex;
+  padding-inline-start: 0; }
+
+.sport_app__list--anchor {
+  text-decoration: none; }
+
+.sport_app__list--anchor {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 1rem; }
+
 .sport_app__downloading {
   background-image: url("../images/apple_store.svg");
   background-size: contain;
@@ -89,7 +115,7 @@ h1 {
 
 .sport_app__link {
   display: flex;
-  padding-inline-start: 0rem; }
+  padding-inline-start: 0; }
 
 .sport_app__link--list {
   list-style: none; }
@@ -97,7 +123,7 @@ h1 {
 .sport_app__list--anchor {
   text-decoration: none;
   margin-top: 1rem;
-  margin-right: 1rem; }
+  margin-right: 16px; }
 
 @media (max-width: 360px) {
   .sport_app__downloading,
@@ -107,10 +133,23 @@ h1 {
     width: 130px;
     height: 44px; } }
 
-/* padding */
-/* margine */
-/* color */
-/* width */
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__link {
+  display: flex;
+  padding-inline-start: 0; }
+
+.sport_app__list--anchor {
+  text-decoration: none; }
+
+.sport_app__list--anchor {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 1rem; }
+
 html {
   background-color: #E5E5E5; }
 
@@ -122,7 +161,8 @@ body {
   padding-right: 0rem;
   background-color: #E5E5E5;
   font-family: lato-light;
-  margin: 0rem; }
+  margin: 0rem;
+  font-size: 16px;}
 
 header {
   min-height: 600px;
@@ -152,14 +192,40 @@ header {
     margin-inline-end: 0rem;
     margin-inline-start: 1rem; } }
 
-/* padding */
-/* margine */
-/* color */
-/* width */
-/* padding */
-/* margine */
-/* color */
-/* width */
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__link {
+  display: flex;
+  padding-inline-start: 0; }
+
+.sport_app__list--anchor {
+  text-decoration: none; }
+
+.sport_app__list--anchor {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 1rem; }
+
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__link {
+  display: flex;
+  padding-inline-start: 0; }
+
+.sport_app__list--anchor {
+  text-decoration: none; }
+
+.sport_app__list--anchor {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-right: 1rem; }
+
 .sport_logo__sign {
   color: #5282F0; }
 

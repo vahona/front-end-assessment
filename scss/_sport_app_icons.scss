@@ -30,7 +30,7 @@
 
 .sport_app__link {
     display: flex;
-    padding-inline-start: $margin-start * 0;
+    padding-inline-start: 0;
 }
 
 .sport_app__link--list {
@@ -39,8 +39,8 @@
 
 .sport_app__list--anchor {
     text-decoration: none;
-    margin-top: $margine;
-    margin-right: $margine;
+    margin-top: 1rem;
+    margin-right: 16px;
 }
 
 @media (max-width: 360px) {

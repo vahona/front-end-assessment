@@ -1,25 +1,59 @@
-/* padding */
+@function convert_to_rem($pixel_value: 16px) {
+  @return #{$pixel_value / $font_size}rem;
+
+
+}
+
+// fonts
+
+$font_size : 16px;
+
+// padding
 
 $padding : 1rem;
 $padding-end: 1rem;
 $padding-app: 1rem;
 
-/* margine */
+// margine
 
 $margine: 1rem;
 $margin-app: 1rem;
 $margin-start: 1rem;
 $margin-end: 1rem;
 
-/* color */
+// color
 $background-app:  #E5E5E5;
 $color-logo : #5282F0;
 $color-heading: #333333;
 $color-paragraph: #4F4F4F;
 
-/* width */
+// width
 
-$width : 156px;
+$max-width-butyon : 156px;
 $max-width-contain: 1114px;
 $max-width-para: 546px;
-$min-height: 600px
+$min-height: 600px;
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .sport_app__link--list {
+   @include reset-list;
+  }
+
+  .sport_app__link {
+    display: flex;
+    padding-inline-start: 0;
+  }
+  .sport_app__list--anchor {
+    text-decoration: none;
+  }
+  .sport_app__list--anchor {
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
