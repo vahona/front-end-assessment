@@ -4,6 +4,9 @@
 :root {
     --margin-for-inline: 20px;
 }
+.sport_app__section1 {
+  text-align: center;
+}
 
 header {
     padding-left: $padding * 0;
@@ -37,8 +40,8 @@ header {
 @media (max-width: 360px) {
     header {
         background-image: none;
-        margin-inline-start: $margin-app;
-        margin-inline-end: $margin-app;
+        // margin-inline-start: $margin-app;
+        // margin-inline-end: $margin-app;
         text-align: center;
     }
     .sport_app__link--list {

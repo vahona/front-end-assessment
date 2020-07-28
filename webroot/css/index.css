@@ -117,6 +117,9 @@ h1 {
 :root {
   --margin-for-inline: 20px; }
 
+.sport_app__section1 {
+  text-align: center; }
+
 header {
   padding-left: 0rem;
   padding-right: 0rem;
@@ -145,8 +148,6 @@ header {
 @media (max-width: 360px) {
   header {
     background-image: none;
-    margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
     text-align: center; }
   .sport_app__link--list {
     background-size: 20%; }
@@ -172,3 +173,27 @@ header {
 
 .sport_logo__app--information {
   color: #4F4F4F; }
+
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__section1 {
+  font-family: lato-light;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url(../webroot/images/background_friendly_user_interface.png); }
+
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sport_app__section2 {
+  background-color: #00ADEE;
+  color: white;
+  background-image: url(../webroot/images/background_blue_rectangles.svg);
+  font-size: 28px;
+  font-family: lato-light; }
