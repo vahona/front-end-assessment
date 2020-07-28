@@ -8,13 +8,14 @@ html {
     --margin-for-inline: 20px;
 }
 
-body {
+header {
     padding-left: $padding * 0;
     padding-right: $padding * 0;
     background-color: $background-app;
     font-family: lato-light;
     margin: $margine * 0;
     font-size: $font_size;
+    height: 400px;
 }
 
 header {

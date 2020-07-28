@@ -106,7 +106,7 @@ h1 {
   .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
-    width: 130px;
+    width: 120px;
     height: 44px; } }
 
 .sport_app__link--list {
@@ -120,13 +120,14 @@ html {
 :root {
   --margin-for-inline: 20px; }
 
-body {
+header {
   padding-left: 0rem;
   padding-right: 0rem;
   background-color: #E5E5E5;
   font-family: lato-light;
   margin: 0rem;
-  font-size: 16px; }
+  font-size: 16px;
+  height: 400px; }
 
 header {
   min-height: 600px;
