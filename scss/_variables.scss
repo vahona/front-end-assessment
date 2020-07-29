@@ -44,6 +44,9 @@ $min-height: 600px;
    @include reset-list;
   }
 
+  @mixin  reset-anchore {
+    text-decoration: none;
+  }
 
 // text aling
 

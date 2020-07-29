@@ -114,11 +114,11 @@ h1 {
   padding: 0;
   list-style: none; }
 
+body {
+  font-family: lato-light; }
+
 :root {
   --margin-for-inline: 20px; }
-
-.sport_app__section1 {
-  text-align: center; }
 
 header {
   padding-left: 0rem;
@@ -181,10 +181,25 @@ header {
 
 .sport_app__section1 {
   font-family: lato-light;
+  font-size: 16px;
   background-size: 100%;
   background-repeat: no-repeat;
-  text-align: center;
-  background-image: url(../webroot/images/background_friendly_user_interface.png); }
+  background-image: url(../images/background_friendly_user_interface.png);
+  background-position: 400px 80%;
+  height: 716px; }
+
+.sport_app__section1--title,
+.sport_app__section1--learn {
+  color: #00ADEE;
+  text-decoration: none; }
+
+.sport_app__section1--title {
+  text-transform: uppercase;
+  font-family: lato-bold; }
+
+.sport_app__section_container {
+  max-width: 500px;
+  margin-inline-start: 10rem; }
 
 .sport_app__link--list {
   margin: 0;

@@ -2,11 +2,28 @@
 
 .sport_app__section1 {
   font-family: lato-light;
+  font-size: $font_size;
   background-size: 100%;
   background-repeat: no-repeat;
-  text-align: $text-align;
-  background-image: url(../webroot/images/background_friendly_user_interface.png);
+  background-image: url(../images/background_friendly_user_interface.png);
+  background-position: 400px 80%;
+  height: 716px;
+
 
 }
 
+.sport_app__section1--title,
+.sport_app__section1--learn{
+  color: #00ADEE;
+   @include reset-anchore
+}
+
+.sport_app__section1--title {
+  text-transform: uppercase;
+  font-family: lato-bold
+}
+.sport_app__section_container {
+  max-width: 500px;
+  margin-inline-start: $margin-start * 10;;
+}
 
