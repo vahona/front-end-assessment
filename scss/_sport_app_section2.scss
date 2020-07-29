@@ -3,8 +3,36 @@
 .sport_app__section2 {
   background-color: #00ADEE;
   color: $color_text;
-  background-image: url(../webroot/images/background_blue_rectangles.svg);
+  background-image: url(../images/background_blue_rectangles.svg);
   font-size: 28px;
   font-family: lato-light;
+  @include background-set
+}
+
+.sport_app_section2_container {
+  padding-block-start: $padding-end;
+  margin-inline-start: $margin-start * 10;
+
+}
+
+.sport_app__section2--tiltle {
+  text-align: center;
+}
+
+.sport_app__section2--anchore {
+  @include reset-anchore;
+
+
+}
+
+.link_tv{background-image: url(../images/icon_video_white.svg); @include background-set; @include indent;}
+.link_bell{background-image: url(../images/icon_bell_ringing_white.svg);  @include background-set; @include indent;}
+.link_hd{background-image: url(../images/icon_hd_white.svg);  @include background-set; @include indent;}
+.link-flag{background-image: url(../images/icon_flag_white.svg);  @include background-set; @include indent;}
+.link-phone{background-image: url(../images/icon_tent_white.svg);  @include background-set; @include indent;}
+.link-bar{background-image: url(../images/icon_graph_white.svg);  @include background-set; @include indent;}
+
+.sport_app__section2--paragraph {
+  font-size: $font_size;
 }
 

@@ -54,5 +54,15 @@ $text-align: center;
 
 // Section2
 
-$color_text : white
+$color_text : white;
 
+// Background
+
+@mixin background-set {
+  background-repeat: no-repeat;
+  display: block;
+}
+
+@mixin indent {
+  text-indent: -999px;
+}
