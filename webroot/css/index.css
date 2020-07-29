@@ -269,3 +269,8 @@ header {
 
 .sport_app__section2--paragraph {
   font-size: 16px; }
+
+.sport_app__section2--navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 311px);
+  grid-column-gap: 2rem; }

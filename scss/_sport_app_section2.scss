@@ -36,3 +36,8 @@
   font-size: $font_size;
 }
 
+.sport_app__section2--navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 311px);
+  grid-column-gap: 2rem;
+}
