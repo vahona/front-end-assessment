@@ -21,6 +21,7 @@
 
 .sport_app__section2--tiltle {
   text-align: center;
+
 }
 
 .sport_app__section2--anchore {
@@ -44,4 +45,7 @@
   display: grid;
   grid-template-columns: repeat(3, 311px);
   grid-gap: 2rem;
+}
+.sport_app__section2--list {
+  list-style: none;
 }

@@ -275,12 +275,21 @@ header {
   grid-template-columns: repeat(3, 311px);
   grid-gap: 2rem; }
 
+.sport_app__section2--list {
+  list-style: none; }
+
 .sport_app__link--list {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-.sport_app__section3 {
+.sport_app__setion3--navigation {
+  align-items: flex-start; }
+
+.sport_app_list6 {
+  grid-column: 6; }
+
+.sport_app__section3--title {
   text-align: center; }
 
 .sport_app__section3--link {
