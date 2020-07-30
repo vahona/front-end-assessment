@@ -1,19 +1,24 @@
+@import "variables";
+
 .sport_app__section3 {
   text-align: center;
 }
+
 
 
 .sport_app__section3--link {
   @include reset-list;
   padding: $padding;
 
+
 }
+
 
 .sport_app__section3--anchor {
   text-decoration: none;
   @include indent;
   height : 3rem;
-  display: flex;
+
 }
 
 .link_sport_tv{background-image: url(../images/logo_sports_tv.svg); @include background-set; @include indent;}
@@ -23,3 +28,7 @@
 .link_sport__news{background-image: url(../images/logo_designer_news.svg);  @include background-set; @include indent;}
 .link_sport__sky{background-image: url(../images/logo_sky_sports.svg);  @include background-set; @include indent;}
 
+.sport_app__section3--list {
+
+
+}

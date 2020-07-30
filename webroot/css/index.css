@@ -275,6 +275,11 @@ header {
   grid-template-columns: repeat(3, 311px);
   grid-gap: 2rem; }
 
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 .sport_app__section3 {
   text-align: center; }
 
@@ -287,8 +292,7 @@ header {
 .sport_app__section3--anchor {
   text-decoration: none;
   text-indent: -9999px;
-  height: 3rem;
-  display: flex; }
+  height: 3rem; }
 
 .link_sport_tv {
   background-image: url(../images/logo_sports_tv.svg);
@@ -325,3 +329,11 @@ header {
   background-repeat: no-repeat;
   display: block;
   text-indent: -9999px; }
+
+.sport_app__link--list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+footer {
+  background-color: #00ADEE; }
