@@ -336,4 +336,62 @@ header {
   list-style: none; }
 
 footer {
-  background-color: #00ADEE; }
+  background-color: #00ADEE;
+  max-height: 125px;
+  display: flex; }
+
+footer > .sport_logo__sign {
+  color: white; }
+
+.sports_app__footer--anchore,
+.sports_app__footer--anchore2 {
+  text-decoration: none;
+  color: white;
+  height: 2rem;
+  width: 2rem; }
+
+.sports_app__footer--link {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+svg {
+  padding: 2.5rem;
+  margin-inline-start: 7.5rem; }
+
+.sport_app_twitter {
+  background-image: url(../images/icon_twitter.svg);
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px; }
+
+.sport_app_facebook {
+  background-image: url(../images/icon_facebook.svg);
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px; }
+
+.sport_app_histogram {
+  background-image: url(../images/icon_instagram.svg);
+  background-repeat: no-repeat;
+  display: block;
+  text-indent: -9999px; }
+
+.sports_app__footer--list {
+  display: flex; }
+
+.sports_app__footer--listsecond {
+  display: flex; }
+
+.sport_app_secondlink {
+  margin: 2rem; }
+
+.sports_app__footer--navigation {
+  float: right;
+  padding: 16px; }
+
+.sports_app_container {
+  display: flex; }
+
+.sports_app__footer--anchore {
+  margin: 1rem; }

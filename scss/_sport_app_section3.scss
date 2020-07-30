@@ -2,6 +2,7 @@
 
 .sport_app__section3 {
   text-align: center;
+
 }
 
 
@@ -19,6 +20,7 @@
   @include indent;
   height : 3rem;
 
+
 }
 
 .link_sport_tv{background-image: url(../images/logo_sports_tv.svg); @include background-set; @include indent;}
@@ -28,7 +30,4 @@
 .link_sport__news{background-image: url(../images/logo_designer_news.svg);  @include background-set; @include indent;}
 .link_sport__sky{background-image: url(../images/logo_sky_sports.svg);  @include background-set; @include indent;}
 
-.sport_app__section3--list {
 
-
-}

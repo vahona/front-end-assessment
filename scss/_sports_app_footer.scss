@@ -3,8 +3,63 @@
 
 footer{
   background-color:  #00ADEE;
+  max-height: 125px;
+  display: flex;
+
 }
 
 footer >.sport_logo__sign {
   color: white;
 }
+
+.sports_app__footer--anchore,
+.sports_app__footer--anchore2 {
+  @include reset-anchore;
+   color: white;
+   height: 2rem;
+   width: 2rem;
+}
+
+.sports_app__footer--link {
+  @include reset-list;
+
+
+}
+
+svg {
+  padding: 2.5rem;
+  margin-inline-start: 7.5rem;
+}
+
+.sport_app_twitter{background-image: url(../images/icon_twitter.svg); @include background-set; @include indent;}
+.sport_app_facebook{background-image: url(../images/icon_facebook.svg);  @include background-set; @include indent;}
+.sport_app_histogram{background-image: url(../images/icon_instagram.svg);  @include background-set; @include indent;}
+
+.sports_app__footer--list {
+  display: flex;
+}
+
+.sports_app__footer--listsecond {
+  display: flex;
+
+
+}
+.sport_app_secondlink {
+   margin: 2rem;
+}
+
+.sports_app__footer--navigation {
+  float: right;
+  padding: 16px;;
+
+}
+.sports_app_container {
+  display: flex;
+
+}
+
+.sports_app__footer--anchore {
+  margin: 1rem;
+
+}
+
