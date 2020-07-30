@@ -132,7 +132,7 @@ header {
 header {
   min-height: 600px;
   background-image: url(../images/sport_app_background.png);
-  background-position: 650px 0%;
+  background-position: 465px 0%;
   background-repeat: no-repeat; }
 
 .sport_app {
@@ -272,8 +272,9 @@ header {
 
 .sport_app__section2--navigation {
   display: grid;
-  grid-template-columns: repeat(3, 311px);
-  grid-gap: 2rem; }
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding-right: 10rem; }
 
 .sport_app__section2--list {
   list-style: none; }
@@ -283,11 +284,9 @@ header {
   padding: 0;
   list-style: none; }
 
-.sport_app__setion3--navigation {
-  align-items: flex-start; }
-
-.sport_app_list6 {
-  grid-column: 6; }
+.sport_app__section3 {
+  background-color: #FAFAFA;
+  padding-top: 1rem; }
 
 .sport_app__section3--title {
   text-align: center; }
@@ -393,7 +392,7 @@ svg {
   display: flex; }
 
 .sport_app_secondlink {
-  margin: 2rem; }
+  margin: 1rem; }
 
 .sports_app__footer--navigation {
   float: right;
@@ -404,3 +403,6 @@ svg {
 
 .sports_app__footer--anchore {
   margin: 1rem; }
+
+.sports_app__footer--link {
+  padding-block-end: 10rem; }

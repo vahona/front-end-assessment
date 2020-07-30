@@ -43,9 +43,12 @@
 
 .sport_app__section2--navigation {
   display: grid;
-  grid-template-columns: repeat(3, 311px);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  padding-right: 10rem;
 }
 .sport_app__section2--list {
   list-style: none;
 }
+
+
