@@ -13,7 +13,11 @@
   padding-block-start: $padding-end;
   margin-inline-start: $margin-start * 10;
 
+
+
 }
+
+
 
 .sport_app__section2--tiltle {
   text-align: center;
@@ -39,5 +43,5 @@
 .sport_app__section2--navigation {
   display: grid;
   grid-template-columns: repeat(3, 311px);
-  grid-column-gap: 2rem;
+  grid-gap: 2rem;
 }
