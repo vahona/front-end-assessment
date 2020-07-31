@@ -1,3 +1,56 @@
+
+
+  .link_tv{background-image: url(../images/icon_video_blue.svg); @include background-set; @include indent;}
+  .link_bell{background-image: url(../images/icon_bell_ringing_blue.svg);  @include background-set; @include indent;}
+  .link_hd{background-image: url(../images/icon_hd_blue.svg);  @include background-set; @include indent;}
+  .link-flag{background-image: url(../images/icon_flag_blue.svg);  @include background-set; @include indent;}
+  .link-phone{background-image: url(../images/icon_tent_blue.svg);  @include background-set; @include indent;}
+  .link-bar{background-image: url(../images/icon_graph_blue.svg);  @include background-set; @include indent;}
+
+  .sport_app__section2--navigation {
+    grid-template-columns: none;
+
+  }
+
+  .link_tv,
+  .link_bell,
+  .link_hd,
+  .link-flag,
+  .link-phone,
+  .link-bar {
+    height: 48px;
+     background-position: 50% 50%;
+
+  }
+  .sport_app__section2--list {
+    padding: 3rem;
+  }
+
+
+  .sport_app__section2 {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding-bottom: $padding;
+
+  }
+  .sport_app_section2_container {
+    margin-inline-end: $margin-start;
+  }
+  .sport_app__section2--list {
+    @include reset-list;
+
+
+  }
+
+  span {
+    display: none
+  }
+
+
+@media (min-width: 1000px) {
+
+
+
 @import "variables";
 
 .sport_app__section2 {
@@ -50,5 +103,9 @@
 .sport_app__section2--list {
   list-style: none;
 }
+
+ }
+
+
 
 

@@ -33,3 +33,16 @@
 .sport_app__section1--learn {
   font-family: lato-bold;
 }
+
+@media (max-width: 360px) {
+
+  .sport_app__section1 {
+    text-align: center;
+  }
+  .sport_app__section_container {
+    margin-inline-start: 0;
+    background-size: 70%;
+    background-image: url(../images/background_friendly_user_interface.png);
+  }
+
+}
