@@ -183,10 +183,13 @@ header {
 .sport_app__section1 {
   font-size: 16px;
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url(../images/background_friendly_user_interface.png);
   background-position: 400px 80%;
-  height: 716px; }
+  text-align: center; }
+
+.sport_app__section1--title,
+.sport_app__section1--learn {
+  color: #00ADEE;
+  text-decoration: none; }
 
 .sport_app__section1--title,
 .sport_app__section1--learn {
@@ -197,10 +200,6 @@ header {
   text-transform: uppercase;
   font-family: lato-bold; }
 
-.sport_app__section_container {
-  max-width: 500px;
-  margin-inline-start: 10rem; }
-
 .sport_app__section1--subtitle {
   font-family: lato-bold;
   font-size: 2rem; }
@@ -208,13 +207,31 @@ header {
 .sport_app__section1--learn {
   font-family: lato-bold; }
 
-@media (max-width: 360px) {
+@media (min-width: 1000px) {
   .sport_app__section1 {
-    text-align: center; }
+    font-size: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/background_friendly_user_interface.png);
+    background-position: 400px 80%;
+    height: 716px; }
+  .sport_app__section1--title,
+  .sport_app__section1--learn {
+    color: #00ADEE;
+    text-decoration: none; }
+  .sport_app__section1--title {
+    text-transform: uppercase;
+    font-family: lato-bold; }
   .sport_app__section_container {
-    margin-inline-start: 0;
-    background-size: 70%;
-    background-image: url(../images/background_friendly_user_interface.png); } }
+    max-width: 500px;
+    margin-inline-start: 10rem; }
+  .sport_app__section1--subtitle {
+    font-family: lato-bold;
+    font-size: 2rem; }
+  .sport_app__section1--learn {
+    font-family: lato-bold; }
+  img {
+    display: none; } }
 
 .link_tv {
   background-image: url(../images/icon_video_blue.svg);
@@ -270,7 +287,8 @@ header {
 .sport_app__section2 {
   background-color: #FAFAFA;
   text-align: center;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
 
 .sport_app_section2_container {
   margin-inline-end: 1rem; }
@@ -348,25 +366,6 @@ span {
   padding: 0;
   list-style: none; }
 
-.sport_app__section3 {
-  background-color: #FAFAFA;
-  padding-bottom: 1rem;
-  padding-top: 1rem; }
-
-.sport_app__section3--title {
-  text-align: center; }
-
-.sport_app__section3--link {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding: 1rem; }
-
-.sport_app__section3--anchor {
-  text-decoration: none;
-  text-indent: -9999px;
-  height: 3rem; }
-
 .link_sport_tv {
   background-image: url(../images/logo_sports_tv.svg);
   background-repeat: no-repeat;
@@ -402,6 +401,68 @@ span {
   background-repeat: no-repeat;
   display: block;
   text-indent: -9999px; }
+
+.sport_app__section3--anchor {
+  text-decoration: none;
+  text-indent: -9999px;
+  height: 3rem; }
+
+.sport_app__section3--link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 1rem; }
+
+.sport_app__section3 {
+  text-align: center;
+  flex-direction: column; }
+
+@media (min-width: 1000px) {
+  .sport_app__section3 {
+    background-color: #FAFAFA;
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
+  .sport_app__section3--title {
+    text-align: center; }
+  .sport_app__section3--link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 1rem; }
+  .sport_app__section3--anchor {
+    text-decoration: none;
+    text-indent: -9999px;
+    height: 3rem; }
+  .link_sport_tv {
+    background-image: url(../images/logo_sports_tv.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; }
+  .link_sport {
+    background-image: url(../images/logo_sports_channel.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; }
+  .link_sport__nbc {
+    background-image: url(../images/logo_nbc_sports.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; }
+  .link_sport__designer {
+    background-image: url(../images/logo_designer_technology.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; }
+  .link_sport__news {
+    background-image: url(../images/logo_designer_news.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; }
+  .link_sport__sky {
+    background-image: url(../images/logo_sky_sports.svg);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px; } }
 
 .sport_app__link--list {
   margin: 0;

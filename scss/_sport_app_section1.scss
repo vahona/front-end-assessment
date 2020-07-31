@@ -3,6 +3,44 @@
 .sport_app__section1 {
   font-size: $font_size;
   background-size: 100%;
+  background-position: 400px 80%;
+  text-align: center;
+
+
+
+}
+
+
+.sport_app__section1--title,
+.sport_app__section1--learn{
+  color: #00ADEE;
+   @include reset-anchore
+}
+
+.sport_app__section1--title,
+.sport_app__section1--learn{
+  color: #00ADEE;
+   @include reset-anchore
+}
+
+.sport_app__section1--title {
+  text-transform: uppercase;
+  font-family: lato-bold
+}
+
+
+.sport_app__section1--subtitle {
+  font-family: lato-bold;
+  font-size: 2rem;
+}
+.sport_app__section1--learn {
+  font-family: lato-bold;
+}
+
+@media (min-width: 1000px) {
+.sport_app__section1 {
+  font-size: $font_size;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url(../images/background_friendly_user_interface.png);
   background-position: 400px 80%;
@@ -33,16 +71,8 @@
 .sport_app__section1--learn {
   font-family: lato-bold;
 }
-
-@media (max-width: 360px) {
-
-  .sport_app__section1 {
-    text-align: center;
-  }
-  .sport_app__section_container {
-    margin-inline-start: 0;
-    background-size: 70%;
-    background-image: url(../images/background_friendly_user_interface.png);
-  }
+img {
+  display: none;
+}
 
 }
