@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: lato-light;
   font-weight: 400;
@@ -317,8 +318,14 @@ span {
   .sport_app_section2_container {
     padding-block-start: 1rem;
     margin-inline-start: 10rem; }
-  .sport_app__section2--tiltle {
-    text-align: center; }
+  .link_tv,
+  .link_bell,
+  .link_hd,
+  .link-flag,
+  .link-phone,
+  .link-bar {
+    height: 48px;
+    background-position: 0% 50%; }
   .sport_app__section2--anchore {
     text-decoration: none; }
   .link_tv {
@@ -359,7 +366,11 @@ span {
     grid-gap: 2rem;
     padding-right: 10rem; }
   .sport_app__section2--list {
-    list-style: none; } }
+    list-style: none; }
+  span {
+    display: block; }
+  .sport_app__section2--paragraph::before {
+    content: '●'; } }
 
 .sport_app__link--list {
   margin: 0;
