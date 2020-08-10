@@ -1,5 +1,10 @@
 
 
+.sport_app__section2 {
+  font-size: 16px;
+}
+
+
   .link_tv{background-image: url(../images/icon_video_blue.svg); @include background-set; @include indent;}
   .link_bell{background-image: url(../images/icon_bell_ringing_blue.svg);  @include background-set; @include indent;}
   .link_hd{background-image: url(../images/icon_hd_blue.svg);  @include background-set; @include indent;}
@@ -50,8 +55,6 @@
 
 @media (min-width: 1000px) {
 
-
-
 @import "variables";
 
 .sport_app__section2 {
@@ -60,7 +63,12 @@
   background-image: url(../images/background_blue_rectangles.svg);
   font-size: 28px;
   font-family: lato-light;
-  @include background-set
+  @include background-set;
+  text-align : left;
+}
+
+.sport_app__section2--tiltle {
+  text-align: center;
 }
 
 .sport_app_section2_container {
@@ -82,10 +90,6 @@
 
   }
 
-.sport_app__section2--tiltle {
-  text-align: right;
-
-}
 
 .sport_app__section2--anchore {
   @include reset-anchore;

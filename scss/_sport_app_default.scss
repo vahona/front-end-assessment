@@ -7,6 +7,7 @@ header {
 }
 body {
   margin: 0;
+  font-family: lato-light;
 }
 
 @media (min-width: 1000px){
@@ -42,7 +43,7 @@ header {
 header {
     min-height: $min-height;
     background-image: url(../images/sport_app_background.png);
-    background-position: 465px 0%;
+    background-position: 650px 0%;
     background-repeat: no-repeat;
 
 }

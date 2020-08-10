@@ -131,7 +131,8 @@ header {
   text-align: center; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: lato-light; }
 
 @media (min-width: 1000px) {
   html {
@@ -155,7 +156,7 @@ body {
   header {
     min-height: 600px;
     background-image: url(../images/sport_app_background.png);
-    background-position: 465px 0%;
+    background-position: 650px 0%;
     background-repeat: no-repeat; }
   .sport_app {
     max-width: 546px;
@@ -245,6 +246,9 @@ body {
   img {
     display: none; } }
 
+.sport_app__section2 {
+  font-size: 16px; }
+
 .link_tv {
   background-image: url(../images/icon_video_blue.svg);
   background-repeat: no-repeat;
@@ -325,7 +329,10 @@ span {
     font-size: 28px;
     font-family: lato-light;
     background-repeat: no-repeat;
-    display: block; }
+    display: block;
+    text-align: left; }
+  .sport_app__section2--tiltle {
+    text-align: center; }
   .sport_app_section2_container {
     padding-block-start: 1rem;
     margin-inline-start: 10rem; }
@@ -337,8 +344,6 @@ span {
   .link-bar {
     height: 48px;
     background-position: 0% 50%; }
-  .sport_app__section2--tiltle {
-    text-align: right; }
   .sport_app__section2--anchore {
     text-decoration: none; }
   .link_tv {
@@ -390,6 +395,9 @@ span {
   padding: 0;
   list-style: none; }
 
+.sport_app__section3--list {
+  display: flex; }
+
 .link_sport_tv {
   background-image: url(../images/logo_sports_tv.svg);
   background-repeat: no-repeat;
@@ -429,64 +437,15 @@ span {
 .sport_app__section3--anchor {
   text-decoration: none;
   text-indent: -9999px;
-  height: 3rem; }
+  height: 3rem;
+  width: 10rem; }
 
 .sport_app__section3--link {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding: 1rem; }
+  padding: 1rem;
+  list-style: none; }
 
-.sport_app__section3 {
-  text-align: center;
-  flex-direction: column; }
-
-@media (min-width: 1000px) {
-  .sport_app__section3 {
-    background-color: #FAFAFA;
-    padding-bottom: 1rem;
-    padding-top: 1rem; }
-  .sport_app__section3--title {
-    text-align: center; }
-  .sport_app__section3--link {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding: 1rem; }
-  .sport_app__section3--anchor {
-    text-decoration: none;
-    text-indent: -9999px;
-    height: 3rem; }
-  .link_sport_tv {
-    background-image: url(../images/logo_sports_tv.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; }
-  .link_sport {
-    background-image: url(../images/logo_sports_channel.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; }
-  .link_sport__nbc {
-    background-image: url(../images/logo_nbc_sports.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; }
-  .link_sport__designer {
-    background-image: url(../images/logo_designer_technology.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; }
-  .link_sport__news {
-    background-image: url(../images/logo_designer_news.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; }
-  .link_sport__sky {
-    background-image: url(../images/logo_sky_sports.svg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: -9999px; } }
+.sport_app__section3--title {
+  text-align: center; }
 
 .sport_app__link--list {
   margin: 0;
