@@ -23,27 +23,32 @@
   list-style: none; }
 
 .sport_logo__sign {
-  text-decoration: none; }
-
-.sport_logo__sign {
   background-image: url(../images/ball.png);
   background-repeat: no-repeat;
-  background-size: 16px;
-  background-position: 2%;
+  background-size: 20px;
   padding-bottom: 60px;
   margin-left: 0rem;
   margin-right: 0rem;
-  padding: 1rem; }
+  padding: 1rem;
+  background-position: 20%;
+  font-size: 1.5rem;
+  padding: 3rem; }
 
 .sport_logo__sign {
-  font-family: lobster; }
+  font-family: lobster;
+  text-decoration: none; }
 
-@media (max-width: 360px) {
+@media (min-width: 1000px) {
   .sport_logo__sign {
-    background-position: 20%;
-    font-size: 2rem;
-    background-size: 15%;
-    padding: 5rem; } }
+    text-decoration: none;
+    font-family: lobster;
+    background-size: 20%;
+    background-position: 3%;
+    padding-bottom: 60px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 1rem;
+    font-size: 1rem; } }
 
 h1 {
   padding-block-start: 3rem;
@@ -70,7 +75,8 @@ h1 {
 .sport_app__downloading {
   background-image: url("../images/apple_store.svg");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-inline-start: 1rem; }
 
 .sport_app__downloading--google {
   background-image: url("../images/google_play.svg");
@@ -81,8 +87,9 @@ h1 {
 .sport_app__downloading--google {
   display: block;
   text-indent: -999px;
-  width: 156px;
-  height: 447px; }
+  width: 100px;
+  height: 40px;
+  margin-block-end: 1rem; }
 
 .sport_app__link {
   list-style: none; }
@@ -102,60 +109,62 @@ h1 {
   margin-top: 1rem;
   margin-right: 16px; }
 
-@media (max-width: 360px) {
+@media (min-width: 1000px) {
   .sport_app__downloading,
   .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
     width: 120px;
-    height: 44px; } }
+    height: 44px; }
+  .sport_app__downloading,
+  .sport_app__downloading--google {
+    width: 156px;
+    margin-left: 0; } }
 
 .sport_app__link--list {
   margin: 0;
   padding: 0;
   list-style: none; }
 
+header {
+  background-color: #F4F6F9;
+  text-align: center; }
+
 body {
-  font-family: lato-light;
-  margin-inline-end: 0; }
+  margin: 0; }
 
-:root {
-  --margin-for-inline: 20px; }
-
-header {
-  padding-left: 0rem;
-  padding-right: 0rem;
-  background-color: #E5E5E5;
-  font-family: lato-light;
-  margin: 0rem;
-  font-size: 16px;
-  height: 400px; }
-
-header {
-  min-height: 600px;
-  background-image: url(../images/sport_app_background.png);
-  background-position: 465px 0%;
-  background-repeat: no-repeat; }
-
-.sport_app {
-  max-width: 546px;
-  margin-inline-end: 0rem;
-  margin-inline-start: 10rem; }
-
-.sport_app_container {
-  max-width: 1114px;
-  margin-inline-start: auto;
-  margin-inline-end: auto; }
-
-@media (max-width: 360px) {
+@media (min-width: 1000px) {
+  html {
+    margin-top: 0; }
   header {
-    background-image: none;
-    text-align: center; }
-  .sport_app__link--list {
-    background-size: 20%; }
+    text-align: left; }
+  body {
+    font-family: lato-light;
+    margin-inline-end: 0;
+    margin-top: 0; }
+  :root {
+    --margin-for-inline: 20px; }
+  header {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    background-color: #E5E5E5;
+    font-family: lato-light;
+    margin: 0rem;
+    font-size: 16px;
+    height: 400px; }
+  header {
+    min-height: 600px;
+    background-image: url(../images/sport_app_background.png);
+    background-position: 465px 0%;
+    background-repeat: no-repeat; }
   .sport_app {
+    max-width: 546px;
     margin-inline-end: 0rem;
-    margin-inline-start: 1rem; } }
+    margin-inline-start: 10rem; }
+  .sport_app_container {
+    max-width: 1114px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; } }
 
 .sport_app__link--list {
   margin: 0;
@@ -216,6 +225,8 @@ header {
     background-image: url(../images/background_friendly_user_interface.png);
     background-position: 400px 80%;
     height: 716px; }
+  .sport_app__section1 {
+    text-align: left; }
   .sport_app__section1--title,
   .sport_app__section1--learn {
     color: #00ADEE;
@@ -326,6 +337,8 @@ span {
   .link-bar {
     height: 48px;
     background-position: 0% 50%; }
+  .sport_app__section2--tiltle {
+    text-align: right; }
   .sport_app__section2--anchore {
     text-decoration: none; }
   .link_tv {

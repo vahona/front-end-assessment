@@ -1,9 +1,28 @@
 @import "variables";
 
+header {
+  background-color: #F4F6F9;
+  text-align: center;
+
+}
+body {
+  margin: 0;
+}
+
+@media (min-width: 1000px){
+ html {
+   margin-top: 0;
+ }
+
+ header {
+   text-align: left;
+ }
+
 
  body {
    font-family: lato-light;
    margin-inline-end: 0;
+   margin-top: 0;
  }
 :root {
     --margin-for-inline: 20px;
@@ -39,19 +58,4 @@ header {
   margin-inline-end: auto;
 }
 
-@media (max-width: 360px) {
-    header {
-        background-image: none;
-        // margin-inline-start: $margin-app;
-        // margin-inline-end: $margin-app;
-        text-align: center;
-    }
-    .sport_app__link--list {
-        background-size: 20%;
-    }
-    .sport_app {
-  margin-inline-end: $margin-end * 0;
-  margin-inline-start: $margin-start;
-
-}
 }

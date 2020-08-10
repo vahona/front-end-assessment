@@ -1,9 +1,12 @@
 @import "variables";
 
+
+
 .sport_app__downloading {
     background-image: url('../images/apple_store.svg');
     background-size: contain;
     background-repeat: no-repeat;
+     margin-inline-start: 1rem;
 }
 
 .sport_app__downloading--google {
@@ -16,8 +19,10 @@
 .sport_app__downloading--google {
     display: block;
     text-indent: -999px;
-    width: 156px;
-    height: 447px;
+    width: 100px;
+    height: 40px;
+    margin-block-end: 1rem;
+
 }
 
 .sport_app__link {
@@ -41,9 +46,9 @@
     text-decoration: none;
     margin-top: 1rem;
     margin-right: 16px;
-}
 
-@media (max-width: 360px) {
+}
+@media (min-width: 1000px) {
     .sport_app__downloading,
     .sport_app__downloading--google {
         display: block;
@@ -53,5 +58,11 @@
 
     }
 
+
+.sport_app__downloading,
+.sport_app__downloading--google {
+    width: 156px;
+    margin-left: 0;
+}
 
 }
