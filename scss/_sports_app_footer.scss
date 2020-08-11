@@ -53,7 +53,7 @@ svg {
 }
 
 .sports_app__footer--anchore2 {
-  font-size: 1rem;
+  font-size: 10px;
   margin-right: $margine;
 }
 
@@ -87,7 +87,7 @@ footer >.sport_logo__sign {
 
 svg {
   padding: 2.5rem;
-  margin-inline-start: 7.5rem;
+  margin-inline-start: 1.5rem;
 }
 
 .sports_app__footer--list {
@@ -125,6 +125,14 @@ svg {
 .sports_app_container {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.sports_app__footer--anchore2 {
+  font-size: 1rem;
+  margin-right: $margine;
+}
+.sports_app_logo {
+  margin-inline-start: 0;
 }
 
 }
