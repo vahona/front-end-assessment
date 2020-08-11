@@ -39,9 +39,9 @@
     padding-top: 1rem;
 
   }
-  .sport_app_section2_container {
-
-  }
+ .sport_app_section2_container{
+ margin-inline-end: $margine;
+}
   .sport_app__section2--list {
     @include reset-list;
 

@@ -91,6 +91,9 @@ h1 {
   height: 44px;
   margin-block-end: 1rem; }
 
+.sport_app__downloading {
+  margin-right: 1rem; }
+
 .sport_app__link {
   list-style: none; }
 
@@ -99,8 +102,7 @@ h1 {
 
 .sport_app__link {
   display: flex;
-  padding-inline-start: 0;
-  justify-content: space-between; }
+  padding-inline-start: 0; }
 
 .sport_app__link--list {
   list-style: none; }
@@ -305,6 +307,9 @@ body {
   text-align: center;
   padding-bottom: 1rem;
   padding-top: 1rem; }
+
+.sport_app_section2_container {
+  margin-inline-end: 1rem; }
 
 .sport_app__section2--list {
   margin: 0;

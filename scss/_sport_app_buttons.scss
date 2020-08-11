@@ -25,6 +25,10 @@
 
 }
 
+.sport_app__downloading {
+  margin-right: 1rem;
+}
+
 .sport_app__link {
     list-style: none;
 }
@@ -36,11 +40,12 @@
 .sport_app__link {
     display: flex;
     padding-inline-start: 0;
-    justify-content: space-between;
+
 }
 
 .sport_app__link--list {
     list-style: none;
+    // margin-right: 1rem;
 }
 
 .sport_app__list--anchor {
@@ -57,6 +62,8 @@
         height: 44px;
 
     }
+
+
 
 
 .sport_app__downloading,
