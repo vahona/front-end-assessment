@@ -227,6 +227,8 @@ body {
     background-repeat: no-repeat;
     background-image: url(../images/background_friendly_user_interface.png);
     background-position: 400px 80%;
+    top: 50px;
+    bottom: 200px;
     height: 716px; }
   .sport_app__section1 {
     text-align: left; }
