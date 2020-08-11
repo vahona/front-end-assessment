@@ -32,14 +32,14 @@ footer{
 .sport_app_histogram{background-image: url(../images/icon_instagram.svg);  @include background-set; @include indent;}
 
 svg {
-  padding: 0.5rem;
+  padding: $padding / 2;
   inline-size: 40%;
 }
 
 
 .sports_app__footer--list {
   display: flex;
-  padding-inline-start: 1rem;
+  padding-inline-start: $padding;
 }
 
 .sports_app__footer--listsecond {
@@ -86,8 +86,8 @@ footer >.sport_logo__sign {
 }
 
 svg {
-  padding: 2.5rem;
-  margin-inline-start: 1.5rem;
+  padding: $padding * 2.5;
+  margin-inline-start: $margine * 1.5;
 }
 
 .sports_app__footer--list {
@@ -100,7 +100,7 @@ svg {
 
 }
 .sport_app_secondlink {
-   margin: 1rem;
+   margin: $margine;
 
 }
 
@@ -115,7 +115,7 @@ svg {
 }
 
 .sports_app__footer--anchore {
-  margin: 1rem;
+  margin: $margine;
 
 }
 .sport_app_secondlink {

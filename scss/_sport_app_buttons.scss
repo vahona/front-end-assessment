@@ -6,7 +6,7 @@
     background-image: url('../images/apple_store.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-inline-start: 1rem;
+    margin-inline-start: $margin-start;
 }
 
 .sport_app__downloading--google {
@@ -21,12 +21,12 @@
     text-indent: -999px;
     width: 140px;
     height: 44px;
-    margin-block-end: 1rem;
+    margin-block-end: $margin-end;
 
 }
 
 .sport_app__downloading {
-  margin-right: 1rem;
+  margin-right: $margine;
 }
 
 .sport_app__link {
@@ -45,12 +45,11 @@
 
 .sport_app__link--list {
     list-style: none;
-    // margin-right: 1rem;
 }
 
 .sport_app__list--anchor {
     text-decoration: none;
-    margin-top: 1rem;
+    margin-top: $margine;
 
 }
 @media (min-width: 1000px) {

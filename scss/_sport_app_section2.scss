@@ -28,7 +28,7 @@
 
   }
   .sport_app__section2--list {
-    padding: 3rem;
+    padding: $padding * 3;
   }
 
 
@@ -36,7 +36,7 @@
     background-color: #FAFAFA;
     text-align: center;
     padding-bottom: $padding;
-    padding-top: 1rem;
+    padding-top: $padding;
 
   }
  .sport_app_section2_container{
@@ -112,7 +112,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  padding-right: 10rem;
+  padding-right: $padding * 10;
 }
 .sport_app__section2--list {
   list-style: none;
